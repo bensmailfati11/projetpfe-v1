@@ -12,7 +12,7 @@ main{
   padding: 20px;
 }
 .sidebar{
-  background:rgb(119, 206, 247);
+  background:rgb(134, 123, 205) 0%;
   color:#fff;
   height: 100vh;
   width: 200px;
@@ -39,12 +39,12 @@ main{
   transition:all 0.5s;
 }
 .link:hover{
-  background: lightblue;
+  background: rgb(212, 185, 236);
   color: black;
   transition :all 0.5s
 }
 .active{
-  background: lightblue;
+  background: rgb(212, 185, 236);
 }
 .icon,.link_text{
   font-size : 30px;
@@ -52,12 +52,12 @@ main{
 }
 .header{
   display: flex;
-  background:rgb(119, 206, 247);
+  background:rgb(134, 123, 205) 0%;
   color: #fff;
 
 }
 .footer{
   display: flex;
-  background:rgb(119, 206, 247);
+  background:rgbrgb(134, 123, 205) 0%;
   color: #fff;
 }

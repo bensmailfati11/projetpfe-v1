@@ -8,6 +8,7 @@ import Users from './pages/Users.jsx';
 import Groupes from './pages/Groupes.jsx';
 import Planings from './pages/Planings.jsx';
 import Codes from './pages/Codes.jsx';
+import Todos from './pages/Todos.jsx';
 
 const App=()=> {
 
@@ -23,6 +24,7 @@ const App=()=> {
       <Route path="/Groupes" element={<Groupes />} />
       <Route path="/Planings" element={<Planings />} />
       <Route path="/Codes" element={<Codes />} />
+      <Route path="/Todos" element={<Todos />} />
       </Routes>
       </Sidebar>
       </BrowserRouter>

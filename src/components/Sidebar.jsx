@@ -8,8 +8,10 @@ import {
     FaUserAlt,
     FaCode,
     FaCalendarCheck,
-    FaUserFriends
+    FaUserFriends,
+    FaTasks
 }from "react-icons/fa"
+//import { FcTodoList } from "react-icons/fc"
 
 import { NavLink } from "react-router-dom";
 const Sidebar = ({children}) => {  
@@ -36,6 +38,10 @@ const Sidebar = ({children}) => {
                 path: "/Codes",
                 name:"Codes",
                 icon:<FaCode/>
+            },            {
+                path: "/Todos",
+                name:"Todo",
+                icon:<FaTasks/>
             }
     ]
     return (
